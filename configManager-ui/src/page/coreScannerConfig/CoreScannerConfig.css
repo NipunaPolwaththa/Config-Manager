@@ -1,0 +1,78 @@
+.center-container-corescanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic-corescanner {
+    text-align: center;
+    font-weight: bold;
+    color:black;
+    font-size: 30px;  
+}
+
+.topHeadingLine-corescanner {
+    border: 1px solid black;
+    overflow: visible; 
+    height: 10px;
+    width: 40%;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+}
+
+.FileChooserLine-corescanner {
+    overflow: visible; 
+    margin-top: 10px;
+    border-style: solid;
+    border-color: rgba(5, 5, 5, 0.201);
+    border-width: 1px 0 0 0;
+}
+
+.left-container-corescanner-ssi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 540px;
+}
+
+.left-container-corescanner-nixmodb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 490px;
+}
+
+.left-container-corescanner-ssi-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 320px;
+}
+
+.serial-heading-corescanner-note {
+    font-weight: 100;
+    font-size: 12px;
+ }
+
+.serialText-corescanner {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.serial-heading-corescanner {
+    font-weight: 600;
+    padding-top: 4px; 
+    font-size: 16px;
+}
+
+.typeahead-input {
+    border-radius: 4px;
+    font-size: 4px;
+    font-family: 'Arial Narrow';
+    padding-top: 2px;
+  }

@@ -1,0 +1,114 @@
+.center-container-iotc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sink-heading-iotc {
+    font-weight: 600;
+    padding-top: 4px; 
+    font-size: 16px;
+}
+
+.left-container-iotc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 425px;
+}
+
+.left-container-iotc-httpSink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 495px;
+}
+
+.left-container-iotc-savannaSink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 460px;
+}
+
+.left-container-iotc-rotatingSink-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 270px;
+}
+
+.left-container-iotc-stdoutColor-sink-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 250px;
+}
+
+.left-container-iotc-http-sink-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 220px;
+}
+
+.left-container-iotc-savanna-sink-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 260px;
+}
+
+.left-container-iotc-win-sink-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 240px;
+}
+
+.sink-heading-iotc-sink-note {
+    font-weight: 100;
+    font-size: 12px;
+ }
+
+.topic-iotc {
+    text-align: center;
+    font-weight: bold;
+    color:black;
+    font-size: 30px;  
+}
+
+.topHeadingLine-iotc {
+    border: 1px solid black;
+    overflow: visible; 
+    height: 10px;
+    width: 40%;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+}
+
+.FileChooserLine-iotc {
+    overflow: visible; 
+    margin-top: 10px;
+    border-style: solid;
+    border-color: rgba(5, 5, 5, 0.201);
+    border-width: 1px 0 0 0;
+}
+
+.syncsText-iotc {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.LogElementText-iotc{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
