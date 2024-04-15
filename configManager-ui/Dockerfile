@@ -1,13 +1,19 @@
-FROM node:18-alpine
-
+# build environment
+FROM node:18-alpine as build
 WORKDIR /app
-
+ENV PATH /app/node_modules/.bin:$PATH
 COPY package.json .
-
+# COPY package-lock.json .
+# COPY yarn.lock ./
+# RUN npm ci --silent
 RUN yarn install
+COPY . ./
+#RUN npm run build
 
-COPY . .
+# production environment
+FROM nginx:stable-alpine
+COPY --from=build /app/dist /usr/share/nginx/html
+COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 
-EXPOSE 5173
-
-CMD [ "yarn","run","dev" ]
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
