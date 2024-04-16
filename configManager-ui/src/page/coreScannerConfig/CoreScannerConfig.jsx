@@ -513,7 +513,20 @@ function CoreScannerConfig() {
   };
 
   const generateSerialModeSettings = () => {
-    const ssiModeSettingsTag = `<PORT id="${currentPortIds.value}" baud="${currentBaudRate.value}" name="${currentSerialMode.value}"/>`;
+    let ssiModeSettingsTag = '';
+    if (
+      currentPortIds !== undefined ||
+      currentPortIds !== undefined ||
+      currentPortIds !== undefined
+    ) {
+      ssiModeSettingsTag =
+        `<!-- Enable this section of configuration for Serial Scanners -->\n` +
+        `\t\t<PORT id="${currentPortIds.value}" baud="${currentBaudRate.value}" name="${currentSerialMode.value}"/>`;
+    } else {
+      ssiModeSettingsTag =
+        `<!-- Enable this section of configuration for Serial Scanners -->\n` +
+        `\t\t<!--<PORT id="31" baud="115200" name="SSI"/>-->`;
+    }
     return ssiModeSettingsTag;
   };
 
@@ -671,7 +684,6 @@ function CoreScannerConfig() {
       `${generateMetaData()}\n` +
       `  </METADATA>\n\n` +
       `\t<SERIAL_MODE_SETTINGS>\n` +
-      `\t\t<!-- Enable this section of configuration for Serial Scanners -->\n` +
       `\t\t${generateSerialModeSettings()}\n` +
       `\t</SERIAL_MODE_SETTINGS>\n\n` +
       `\t<IP_DEVICE_SETTINGS>\n` +
