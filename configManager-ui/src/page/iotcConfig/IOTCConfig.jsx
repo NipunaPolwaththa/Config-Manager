@@ -1023,7 +1023,7 @@ function IOTCConfig() {
         </p>
         <hr className="FileChooserLine-iotc" />
 
-        <h2 className="syncsText-iotc">Syncs</h2>
+        <h2 className="syncsText-iotc">Sincs</h2>
         <div className="left-container-iotc mt-5">
           <input
             type="checkbox"
@@ -2427,7 +2427,7 @@ function IOTCConfig() {
               sx={{ mr: 1 }}
               className="w-40"
             >
-              Download
+              Generate
             </Button>
           </div>
         </div>
