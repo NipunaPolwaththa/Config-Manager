@@ -984,7 +984,7 @@ function CoreScannerConfig() {
                   htmlFor="id"
                   className="block text-sm pb-1 font-medium text-gray-700"
                 >
-                  <div>ID</div>
+                  <div>COM Port</div>
                 </label>
                 <Select
                   name="id"
@@ -994,7 +994,7 @@ function CoreScannerConfig() {
                   }}
                   value={currentPortIds}
                   styles={customStyles}
-                  placeholder="Select Port ID"
+                  placeholder="Select COM Port"
                   options={portIds}
                   className="block text-sm pb-1 font-medium text-gray-700 w-48"
                 />
@@ -1202,7 +1202,7 @@ function CoreScannerConfig() {
           </div>
         </div>
 
-        <h2 className="serialText-corescanner mt-10">DDF Meta</h2>
+        <h2 className="serialText-corescanner mt-10">Driver Data Formatting</h2>
         <div className="center-container-corescanner">
           <div className="text-xs">
             <div className="mt-4 flex space-x-4 w-full">
@@ -1505,7 +1505,7 @@ function CoreScannerConfig() {
                 />
               </div>
             </div>
-            <div className="mt-4 flex space-x-4 w-full">
+            <div className="mt-4 flex space-x-4 w-full mb-16">
               <div className="flex flex-col w-full">
                 <label
                   htmlFor="ddfFormatCode7"
@@ -1530,14 +1530,6 @@ function CoreScannerConfig() {
                   className="rounded-md shadow-sm md:w-96 typeahead-input text-lg"
                 />
               </div>
-            </div>
-          </div>
-        </div>
-
-        <h2 className="serialText-corescanner mt-10">DDF Select</h2>
-        <div className="center-container-corescanner mb-16">
-          <div className="text-xs">
-            <div className="mt-4 flex space-x-4 w-full">
               <div className="flex flex-col w-full">
                 <label
                   htmlFor="ddfSelect"
@@ -1569,7 +1561,7 @@ function CoreScannerConfig() {
               sx={{ mr: 1 }}
               className="w-40"
             >
-              Download
+              Generate
             </Button>
           </div>
         </div>
