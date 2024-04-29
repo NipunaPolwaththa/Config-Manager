@@ -964,7 +964,7 @@ function CoreScannerConfig() {
         <h1 className="topic-corescanner">CORESCANNER CONFIG FILE GENERATOR</h1>
         <hr className="topHeadingLine-corescanner" />
         <p className="font-bold text-lg text-center mt-4">
-          You can Select Config from here :
+          You can select Config from here :
           <span className="md:ml-6 text-info underline">
             <input
               type="file"

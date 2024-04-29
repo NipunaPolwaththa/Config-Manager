@@ -1016,14 +1016,14 @@ function IOTCConfig() {
         <h1 className="topic-iotc">IOT CONNECT CONFIG FILE GENERATOR</h1>
         <hr className="topHeadingLine-iotc" />
         <p className="font-bold text-lg text-center mt-4">
-          You can Select Config from here :
+          You can select Config from here :
           <span className="md:ml-6 text-info underline">
             <input type="file" name="file" onChange={changeFileHandlerIotc} />
           </span>
         </p>
         <hr className="FileChooserLine-iotc" />
 
-        <h2 className="syncsText-iotc">Sincs</h2>
+        <h2 className="syncsText-iotc">Sinks</h2>
         <div className="left-container-iotc mt-5">
           <input
             type="checkbox"

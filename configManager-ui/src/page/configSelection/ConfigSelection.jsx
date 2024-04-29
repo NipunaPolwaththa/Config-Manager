@@ -57,13 +57,13 @@ function ConfigSelection() {
   return (
     <MainLayout>
       <div className="mt-72">
+        <div className="bg-[#ffffff] rounded flex justify-center items-center">
+          <img src={logo} alt="" className="w-20" />
+        </div>
         <div className="w-full flex justify-center items-center bg-white">
           <div className="font-bold text-2xl text-black font-poppins py-1">
             Welcome to ConfigManager
           </div>
-        </div>
-        <div className="bg-[#ffffff] rounded flex justify-center items-center">
-          <img src={logo} alt="" className="w-20" />
         </div>
         <div className="mt-4 w-full flex justify-center items-center">
           <Select
