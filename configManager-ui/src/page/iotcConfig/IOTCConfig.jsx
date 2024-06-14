@@ -1013,7 +1013,7 @@ function IOTCConfig() {
   return (
     <MainLayout>
       <div className="mt-4">
-        <h1 className="topic-iotc">IOT CONNECT CONFIG FILE GENERATOR</h1>
+        <h1 className="topic-iotc">IOT CONNECTOR CONFIG FILE GENERATOR</h1>
         <hr className="topHeadingLine-iotc" />
         <p className="font-bold text-lg text-center mt-4">
           You can select Config from here :
